@@ -1,6 +1,7 @@
 ---
 title: "Intro to dplyr -  Lab"
 output: html_document
+Indira Martinez
 ---
 ```{r}
 library(tidyverse)
@@ -208,6 +209,8 @@ starwars %>% filter(sex == "male") %>% arrange(-height) %>% head(1)
 ```
 
 ```{r}
+#notes
+
 glimpse(starwars)
 
 starwars %>% select(name)
